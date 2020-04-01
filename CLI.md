@@ -1,4 +1,6 @@
 
+##创建蓝图
+
 ```bash
 npm install -g generator-jhipster-blueprint
 
