@@ -3,6 +3,18 @@
 要安装Yeoman，请输入： yarn global add yo
 要安装JHipster，请输入： yarn global add generator-jhipster
 
+
+##
+
+```bash
+npm install -g generator-jhipster-blueprint
+
+mkdir my-blueprint && cd my-blueprint
+
+yo jhipster-blueprint
+```
+
+
 ##
 jhipster import-jdl your-jdl-file.jh
 
