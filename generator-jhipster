@@ -1,1 +1,17 @@
 npm install -g generator-jhipster
+
+git clone https://github.com/jhipster/generator-jhipster-nodejs.git
+cd generator-jhipster-nodejs
+git checkout -b feature/my-feature
+npm install
+npm link
+cd ..
+git clone https://github.com/jhipster/generator-jhipster.git
+cd generator-jhipster
+npm install
+npm link
+cd ..
+mkdir test-generation
+cd test-generation
+npm link generator-jhipster
+npm link generator-jhipster-nodejs
