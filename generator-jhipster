@@ -1,9 +1,10 @@
 
+##安装
+要安装Yeoman，请输入： yarn global add yo
+要安装JHipster，请输入： yarn global add generator-jhipster
+
+##
 jhipster import-jdl your-jdl-file.jh
-
-
-
-npm install -g generator-jhipster
 
 git clone https://github.com/jhipster/generator-jhipster-nodejs.git
 cd generator-jhipster-nodejs
