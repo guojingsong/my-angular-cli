@@ -4,10 +4,12 @@
 
 ng new prototype-lib --create-application=false  --routing=true --style=scss --skipInstall=true
 
-cd prototype-lib
+cd prototype-lib 
 
 // 建立Lib
 ng generate library prototype-lib-client  --skipInstall=true
+
+ng generate directive csv-out  --skipInstall=true
 
 ng generate service --project prototype-lib-client.
 
