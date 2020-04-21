@@ -1,6 +1,7 @@
 
 
 // 建立workSpace
+
 ng new prototype-lib --create-application=false  --routing=true --style=scss --skipInstall=true
 
 cd prototype-lib
@@ -14,10 +15,7 @@ ng generate service --project prototype-lib-client.
 PS D:\GitLibWorkSpace\prototype-lib> npm run test
 > prototype-lib@0.0.0 test D:\GitLibWorkSpace\prototype-lib
 > ng test prototype-lib-client
-
-```js
-
-
+```
 
 // Git remote 设定
 git remote add origin http://192.168.7.187/AirDO/prototype-lib.git   
