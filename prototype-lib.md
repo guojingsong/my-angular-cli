@@ -11,6 +11,8 @@ ng generate library prototype-lib-client  --skipInstall=true
 
 ng generate directive csv-out  --project prototype-lib-client
 
+ng generate module prototype-lib-client  --project prototype-lib-client
+
 ng generate service --project prototype-lib-client.
 
 ```
