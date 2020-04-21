@@ -9,7 +9,7 @@ cd prototype-lib
 // 建立Lib
 ng generate library prototype-lib-client  --skipInstall=true
 
-ng generate directive csv-out  --skipInstall=true
+ng generate directive csv-out  --project prototype-lib-client
 
 ng generate service --project prototype-lib-client.
 
