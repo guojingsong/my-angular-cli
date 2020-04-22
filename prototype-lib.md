@@ -7,7 +7,9 @@ ng new prototype-lib --create-application=false  --routing=true --style=scss --s
 cd prototype-lib 
 
 // 建立Lib
+
 ng generate library prototype-lib-client  --skipInstall=true
+ng generate application csv-lib-demo --routing=true --prefix=air --force=true --skipInstall=true
 
 ng generate directive csv-out  --project prototype-lib-client
 
