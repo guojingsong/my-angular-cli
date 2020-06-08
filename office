@@ -1,0 +1,3 @@
+ng new offi-workspace --create-application=false --routing=true --style=scss --skipInstall=true
+cd offi-workspace
+ng generate application office-power-point --routing=true --prefix=air --force=true --skipInstall=true
